@@ -1,0 +1,13 @@
+-*- mode: org; mode: visual-line; -*-
+#+STARTUP: indent
+
+* SETUP
+
+- Tutorial [[http://johnny-five.io/][here]].
+- StandardFirmata firmware flashed onto Arduino (via [[https://www.arduino.cc/en/reference/firmata][Firmata]] library).
+
+* RUN
+
+#+BEGIN_SRC shell-script
+  node hello-led-13.js
+#+END_SRC
