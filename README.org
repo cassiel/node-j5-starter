@@ -6,8 +6,9 @@
 - Tutorial [[http://johnny-five.io/][here]].
 - StandardFirmata firmware flashed onto Arduino (via [[https://www.arduino.cc/en/reference/firmata][Firmata]] library).
 
-* RUN
+* INSTALL AND RUN
 
 #+BEGIN_SRC shell-script
+  npm install johnny-five
   node hello-led-13.js
 #+END_SRC
